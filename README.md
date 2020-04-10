@@ -33,7 +33,7 @@ jobs:
         run: hugo --minify
 
       - name: Deploy Tencent Cloud COS
-        uses: arcsinu/actions-coscmd@v1
+        uses: egcn/actions-coscmd@v1
         with:
           args: upload -rs --delete ./public/ / --ignore .git
           secret_id: ${{ secrets.SECRET_ID }}

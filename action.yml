@@ -1,6 +1,6 @@
 name: 'Tencent Cloud COSCMD'
 description: 'GitHub Actions for Tencent Cloud Object Storage Command-line interface (COSCMD)'
-author: 'arcsinu <violet@evergarden.cn>'
+author: 'egcn <violet@evergarden.cn>'
 branding:
   icon: 'cloud'
   color: 'blue'
